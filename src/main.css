@@ -1,0 +1,87 @@
+.container {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px -5px black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h2 {
+    width: 100%;
+    background-color: rgb(112, 77, 175);
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.addBtn {
+    border-radius: 6px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Georgia;
+    color: #ff0044;
+    font-size: 25px;
+    background: #dedede;
+    padding: 8px 12px;
+    border: solid #807c80 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background: #e90712;
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    width: 200px;
+    padding: 4px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-right: 10px;
+    outline: none;
+}
+
+
+.divItem {
+    display: flex;
+    width: 80%;
+    margin: 0px auto 10px auto;
+    align-items: center;
+}
+
+.delBtn {
+    border-radius: 2px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Georgia;
+    color: #ff0044;
+    font-size: 15px;
+    background: #dedede;
+    padding: 3px;
+    border: solid #807c80 1px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delBtn:hover {
+    color: white;
+    background-color: rgb(240, 0, 48);
+}
